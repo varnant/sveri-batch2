@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sonali Lavate - Resume</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+      background: #f2f2f2;
+    }
+
+    .resume {
+      display: flex;
+      flex-direction: row;
+      max-width: 600px;         /* Reduced width */
+      min-height: 100vh;        /* Increased height */
+      margin: 40px auto;
+      background: #fff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.15);
+    }
+
+    .left {
+      width: 35%;
+      background-color: #609693;
+      color: white;
+      padding: 40px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .left .photo {
+      width: 162px;
+      height: 168px;
+      border-radius: 50%;
+      background-image: url('sonu.jpg'); /* Replace with your actual image */
+      background-size: cover;
+      background-position: center;
+      border: 3px solid white;
+      margin-bottom: 20px;
+    }
+
+    .left h3 {
+      font-size: 14px;
+      margin: 20px 0 10px;
+      letter-spacing: 1px;
+    }
+
+    .left p {
+      font-size: 13px;
+      text-align: center;
+      line-height: 1.6;
+    }
+
+    .left .contact {
+      margin-top: 20px;
+    }
+
+    .left .contact div {
+      display: flex;
+      align-items: center;
+      font-size: 13px;
+      margin: 8px 0;
+    }
+
+    .left .contact div i {
+      margin-right: 8px;
+    }
+
+    .right {
+      width: 65%;
+      padding: 40px 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .right .header {
+      background-color: #eac2b6;
+      padding: 20px;
+      margin: -40px -30px 30px -30px;
+      text-align: center;
+    }
+
+    .right .header h1 {
+      font-size: 26px;
+      margin: 0;
+      color: #333;
+    }
+
+    .section {
+      margin-bottom: 25px;
+    }
+
+    .section h2 {
+      font-size: 16px;
+      color: #4d4d4d;
+      border-left: 5px solid #609693;
+      padding-left: 10px;
+      margin-bottom: 10px;
+    }
+
+    .section p, .section ul {
+      font-size: 14px;
+      color: #333;
+      margin: 5px 0;
+    }
+
+    .section ul {
+      padding-left: 18px;
+    }
+
+    .section ul li {
+      margin-bottom: 6px;
+    }
+
+    @media (max-width: 768px) {
+      .resume {
+        flex-direction: column;
+      }
+
+      .left, .right {
+        width: 100%;
+      }
+
+      .right .header {
+        margin: -40px -20px 20px -20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="resume">
+    <!-- Left Section -->
+    <div class="left">
+      <div class="photo"></div>
+
+      <h3>CAREER OBJECTIVE</h3>
+      <p>
+        To work in a company where I can explore myself more, enhance my skills,
+        and contribute to the success of the organization.
+      </p>
+
+      <h3>CONTACT </h3>
+      <div class="contact">
+        <div><i>📞</i> 9527173004</div>
+        <div><i>✉️</i> sonalilavate7@gmail.com</div>
+        <div><i>📍</i> Lotewadi, Tal-Sangola, Dist-Solapur</div>
+      </div>
+    </div>
+
+    <!-- Right Section -->
+    <div class="right">
+      <div class="header">
+        <h1>SONALI LAVATE</h1>
+      </div>
+
+      <div class="section">
+        <h2>EDUCATION</h2>
+        <p><strong>Master of Computer Applications</strong><br>
+        Sveri’s College of Engineering, Pandharapur (Autonomous)</p>
+        <p><strong>Bachelor of Computer Application</strong><br>
+        Dr. Ganpatrao Deshmukh Mahavidyalaya, Sangola</p>
+      </div>
+
+      <div class="section">
+        <h2>LANGUAGE</h2>
+        <ul>
+          <li>English</li>
+          <li>Hindi</li>
+          <li>Marathi</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2>TECHNICAL SKILLS</h2>
+        <p><strong>Programming Languages:</strong> C, C++, Java, SQL</p>
+        <p><strong>Web Technology:</strong> HTML, CSS</p>
+        <p><strong>Tools:</strong> Eclipse, Visual Studio Code</p>
+      </div>
+
+      <div class="section">
+        <h2>HOBBIES</h2>
+        <ul>
+          <li>Photography</li>
+          <li>Coding</li>
+          <li>Problem Solving</li>
+          <li>Cooking</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
